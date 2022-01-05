@@ -51,6 +51,26 @@
 		E1D496412785946E00C218B4 /* SandVideoPlayerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC185278545F600A30763 /* SandVideoPlayerView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D496422785946E00C218B4 /* UIView+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC17A278545F600A30763 /* UIView+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1D496432785946E00C218B4 /* SandVideoPlayerLayer.swift in Headers */ = {isa = PBXBuildFile; fileRef = E1D4962B27858BD800C218B4 /* SandVideoPlayerLayer.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496462785AC5500C218B4 /* SandPlayerResourceLoader.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC181278545F600A30763 /* SandPlayerResourceLoader.swift */; };
+		E1D496472785AC5500C218B4 /* SandPlayerCacheAction.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC186278545F600A30763 /* SandPlayerCacheAction.swift */; };
+		E1D496482785AC5500C218B4 /* SandPlayerCacheConfiguration.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */; };
+		E1D496492785AC5500C218B4 /* SandPlayerCacheManager.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC183278545F600A30763 /* SandPlayerCacheManager.swift */; };
+		E1D4964A2785AC5500C218B4 /* SandPlayerCacheMedia.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC17E278545F600A30763 /* SandPlayerCacheMedia.swift */; };
+		E1D4964B2785AC5500C218B4 /* SandPlayerCacheMediaConfiguration.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC188278545F600A30763 /* SandPlayerCacheMediaConfiguration.swift */; };
+		E1D4964C2785AC5500C218B4 /* SandPlayerCacheMediaWorker.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC17D278545F600A30763 /* SandPlayerCacheMediaWorker.swift */; };
+		E1D4964D2785AC5500C218B4 /* SandPlayerCacheSession.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC17F278545F600A30763 /* SandPlayerCacheSession.swift */; };
+		E1D4964E2785AC5500C218B4 /* SandPlayerDownloadActionWorker.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC187278545F600A30763 /* SandPlayerDownloadActionWorker.swift */; };
+		E1D4964F2785AC5500C218B4 /* SandPlayerDownloader.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */; };
+		E1D496502785AC5500C218B4 /* SandPlayerDownloadURLSessionManager.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC184278545F600A30763 /* SandPlayerDownloadURLSessionManager.swift */; };
+		E1D496512785AC5500C218B4 /* SandPlayerResourceLoaderManager.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC189278545F700A30763 /* SandPlayerResourceLoaderManager.swift */; };
+		E1D496522785AC5500C218B4 /* SandPlayerResourceLoadingRequest.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC18A278545F700A30763 /* SandPlayerResourceLoadingRequest.swift */; };
+		E1D496532785AC5500C218B4 /* SandProgressBar.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC180278545F600A30763 /* SandProgressBar.swift */; };
+		E1D496542785AC5500C218B4 /* SandSeekingView.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC17C278545F600A30763 /* SandSeekingView.swift */; };
+		E1D496552785AC5500C218B4 /* SandSliderThumbnail.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC17B278545F600A30763 /* SandSliderThumbnail.swift */; };
+		E1D496562785AC5500C218B4 /* SandUtility.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC182278545F600A30763 /* SandUtility.swift */; };
+		E1D496572785AC5500C218B4 /* SandVideoPlayerView.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC185278545F600A30763 /* SandVideoPlayerView.swift */; };
+		E1D496582785AC5500C218B4 /* UIView+Extension.swift in Resources */ = {isa = PBXBuildFile; fileRef = E12CC17A278545F600A30763 /* UIView+Extension.swift */; };
+		E1D496592785AC5500C218B4 /* SandVideoPlayerLayer.swift in Resources */ = {isa = PBXBuildFile; fileRef = E1D4962B27858BD800C218B4 /* SandVideoPlayerLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -277,6 +297,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D496462785AC5500C218B4 /* SandPlayerResourceLoader.swift in Resources */,
+				E1D496472785AC5500C218B4 /* SandPlayerCacheAction.swift in Resources */,
+				E1D496482785AC5500C218B4 /* SandPlayerCacheConfiguration.swift in Resources */,
+				E1D496492785AC5500C218B4 /* SandPlayerCacheManager.swift in Resources */,
+				E1D4964A2785AC5500C218B4 /* SandPlayerCacheMedia.swift in Resources */,
+				E1D4964B2785AC5500C218B4 /* SandPlayerCacheMediaConfiguration.swift in Resources */,
+				E1D4964C2785AC5500C218B4 /* SandPlayerCacheMediaWorker.swift in Resources */,
+				E1D4964D2785AC5500C218B4 /* SandPlayerCacheSession.swift in Resources */,
+				E1D4964E2785AC5500C218B4 /* SandPlayerDownloadActionWorker.swift in Resources */,
+				E1D4964F2785AC5500C218B4 /* SandPlayerDownloader.swift in Resources */,
+				E1D496502785AC5500C218B4 /* SandPlayerDownloadURLSessionManager.swift in Resources */,
+				E1D496512785AC5500C218B4 /* SandPlayerResourceLoaderManager.swift in Resources */,
+				E1D496522785AC5500C218B4 /* SandPlayerResourceLoadingRequest.swift in Resources */,
+				E1D496532785AC5500C218B4 /* SandProgressBar.swift in Resources */,
+				E1D496542785AC5500C218B4 /* SandSeekingView.swift in Resources */,
+				E1D496552785AC5500C218B4 /* SandSliderThumbnail.swift in Resources */,
+				E1D496562785AC5500C218B4 /* SandUtility.swift in Resources */,
+				E1D496572785AC5500C218B4 /* SandVideoPlayerView.swift in Resources */,
+				E1D496582785AC5500C218B4 /* UIView+Extension.swift in Resources */,
+				E1D496592785AC5500C218B4 /* SandVideoPlayerLayer.swift in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
