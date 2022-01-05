@@ -30,6 +30,7 @@
 		E12CC19D278545F700A30763 /* SandPlayerResourceLoadingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18A278545F700A30763 /* SandPlayerResourceLoadingRequest.swift */; };
 		E12CC19E278545F700A30763 /* SandPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */; };
 		E12CC19F278545F700A30763 /* SandPlayerCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */; };
+		E1D4962C27858BD800C218B4 /* SandVideoPlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4962B27858BD800C218B4 /* SandVideoPlayerLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		E12CC18A278545F700A30763 /* SandPlayerResourceLoadingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerResourceLoadingRequest.swift; sourceTree = "<group>"; };
 		E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerDownloader.swift; sourceTree = "<group>"; };
 		E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheConfiguration.swift; sourceTree = "<group>"; };
+		E1D4962B27858BD800C218B4 /* SandVideoPlayerLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandVideoPlayerLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				E12CC182278545F600A30763 /* SandUtility.swift */,
 				E12CC185278545F600A30763 /* SandVideoPlayerView.swift */,
 				E12CC17A278545F600A30763 /* UIView+Extension.swift */,
+				E1D4962B27858BD800C218B4 /* SandVideoPlayerLayer.swift */,
 			);
 			path = SandVideoPlayer;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				E12CC198278545F700A30763 /* SandVideoPlayerView.swift in Sources */,
 				E12CC19B278545F700A30763 /* SandPlayerCacheMediaConfiguration.swift in Sources */,
 				E12CC19A278545F700A30763 /* SandPlayerDownloadActionWorker.swift in Sources */,
+				E1D4962C27858BD800C218B4 /* SandVideoPlayerLayer.swift in Sources */,
 				E12CC192278545F700A30763 /* SandPlayerCacheSession.swift in Sources */,
 				E12CC196278545F700A30763 /* SandPlayerCacheManager.swift in Sources */,
 				E12CC191278545F700A30763 /* SandPlayerCacheMedia.swift in Sources */,
