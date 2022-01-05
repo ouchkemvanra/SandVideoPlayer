@@ -31,6 +31,26 @@
 		E12CC19E278545F700A30763 /* SandPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */; };
 		E12CC19F278545F700A30763 /* SandPlayerCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */; };
 		E1D4962C27858BD800C218B4 /* SandVideoPlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D4962B27858BD800C218B4 /* SandVideoPlayerLayer.swift */; };
+		E1D496302785946E00C218B4 /* SandPlayerResourceLoader.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC181278545F600A30763 /* SandPlayerResourceLoader.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496312785946E00C218B4 /* SandPlayerCacheAction.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC186278545F600A30763 /* SandPlayerCacheAction.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496322785946E00C218B4 /* SandPlayerCacheConfiguration.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496332785946E00C218B4 /* SandPlayerCacheManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC183278545F600A30763 /* SandPlayerCacheManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496342785946E00C218B4 /* SandPlayerCacheMedia.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC17E278545F600A30763 /* SandPlayerCacheMedia.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496352785946E00C218B4 /* SandPlayerCacheMediaConfiguration.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC188278545F600A30763 /* SandPlayerCacheMediaConfiguration.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496362785946E00C218B4 /* SandPlayerCacheMediaWorker.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC17D278545F600A30763 /* SandPlayerCacheMediaWorker.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496372785946E00C218B4 /* SandPlayerCacheSession.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC17F278545F600A30763 /* SandPlayerCacheSession.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496382785946E00C218B4 /* SandPlayerDownloadActionWorker.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC187278545F600A30763 /* SandPlayerDownloadActionWorker.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496392785946E00C218B4 /* SandPlayerDownloader.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D4963A2785946E00C218B4 /* SandPlayerDownloadURLSessionManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC184278545F600A30763 /* SandPlayerDownloadURLSessionManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D4963B2785946E00C218B4 /* SandPlayerResourceLoaderManager.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC189278545F700A30763 /* SandPlayerResourceLoaderManager.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D4963C2785946E00C218B4 /* SandPlayerResourceLoadingRequest.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC18A278545F700A30763 /* SandPlayerResourceLoadingRequest.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D4963D2785946E00C218B4 /* SandProgressBar.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC180278545F600A30763 /* SandProgressBar.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D4963E2785946E00C218B4 /* SandSeekingView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC17C278545F600A30763 /* SandSeekingView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D4963F2785946E00C218B4 /* SandSliderThumbnail.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC17B278545F600A30763 /* SandSliderThumbnail.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496402785946E00C218B4 /* SandUtility.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC182278545F600A30763 /* SandUtility.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496412785946E00C218B4 /* SandVideoPlayerView.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC185278545F600A30763 /* SandVideoPlayerView.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496422785946E00C218B4 /* UIView+Extension.swift in Headers */ = {isa = PBXBuildFile; fileRef = E12CC17A278545F600A30763 /* UIView+Extension.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1D496432785946E00C218B4 /* SandVideoPlayerLayer.swift in Headers */ = {isa = PBXBuildFile; fileRef = E1D4962B27858BD800C218B4 /* SandVideoPlayerLayer.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +172,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D496302785946E00C218B4 /* SandPlayerResourceLoader.swift in Headers */,
+				E1D496312785946E00C218B4 /* SandPlayerCacheAction.swift in Headers */,
+				E1D496322785946E00C218B4 /* SandPlayerCacheConfiguration.swift in Headers */,
+				E1D496332785946E00C218B4 /* SandPlayerCacheManager.swift in Headers */,
+				E1D496342785946E00C218B4 /* SandPlayerCacheMedia.swift in Headers */,
+				E1D496352785946E00C218B4 /* SandPlayerCacheMediaConfiguration.swift in Headers */,
+				E1D496362785946E00C218B4 /* SandPlayerCacheMediaWorker.swift in Headers */,
+				E1D496372785946E00C218B4 /* SandPlayerCacheSession.swift in Headers */,
+				E1D496382785946E00C218B4 /* SandPlayerDownloadActionWorker.swift in Headers */,
+				E1D496392785946E00C218B4 /* SandPlayerDownloader.swift in Headers */,
+				E1D4963A2785946E00C218B4 /* SandPlayerDownloadURLSessionManager.swift in Headers */,
+				E1D4963B2785946E00C218B4 /* SandPlayerResourceLoaderManager.swift in Headers */,
+				E1D4963C2785946E00C218B4 /* SandPlayerResourceLoadingRequest.swift in Headers */,
+				E1D4963D2785946E00C218B4 /* SandProgressBar.swift in Headers */,
+				E1D4963E2785946E00C218B4 /* SandSeekingView.swift in Headers */,
+				E1D4963F2785946E00C218B4 /* SandSliderThumbnail.swift in Headers */,
+				E1D496402785946E00C218B4 /* SandUtility.swift in Headers */,
+				E1D496412785946E00C218B4 /* SandVideoPlayerView.swift in Headers */,
+				E1D496422785946E00C218B4 /* UIView+Extension.swift in Headers */,
+				E1D496432785946E00C218B4 /* SandVideoPlayerLayer.swift in Headers */,
 				E12CC171278544C800A30763 /* SandVideoPlayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,7 +472,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +501,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

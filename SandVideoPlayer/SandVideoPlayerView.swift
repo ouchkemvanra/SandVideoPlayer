@@ -515,7 +515,12 @@ extension SandVideoPlayerView{
     
     /// Setup Button Layout
     private func setupButton(){
-        loadingView = .init(style: .large)
+        loadingView = .init(frame: .zero)
+        if #available(iOS 13.0, *) {
+            loadingView.style = .medium
+        } else {
+            // Fallback on earlier versions
+        }
         loadingView.translatesAutoresizingMaskIntoConstraints = false
         loadingView.isHidden = true
         loadingView.tintColor = .white
