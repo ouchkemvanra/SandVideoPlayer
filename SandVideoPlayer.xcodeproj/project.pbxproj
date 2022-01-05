@@ -11,6 +11,25 @@
 		E12CC16B278544C800A30763 /* SandVideoPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E12CC160278544C800A30763 /* SandVideoPlayer.framework */; };
 		E12CC170278544C800A30763 /* SandVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC16F278544C800A30763 /* SandVideoPlayerTests.swift */; };
 		E12CC171278544C800A30763 /* SandVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E12CC163278544C800A30763 /* SandVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E12CC18D278545F700A30763 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17A278545F600A30763 /* UIView+Extension.swift */; };
+		E12CC18E278545F700A30763 /* MarioSliderThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17B278545F600A30763 /* MarioSliderThumbnail.swift */; };
+		E12CC18F278545F700A30763 /* MarioSeekingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17C278545F600A30763 /* MarioSeekingView.swift */; };
+		E12CC190278545F700A30763 /* MarioPlayerCacheMediaWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17D278545F600A30763 /* MarioPlayerCacheMediaWorker.swift */; };
+		E12CC191278545F700A30763 /* MarioPlayerCacheMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17E278545F600A30763 /* MarioPlayerCacheMedia.swift */; };
+		E12CC192278545F700A30763 /* MarioPlayerCacheSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17F278545F600A30763 /* MarioPlayerCacheSession.swift */; };
+		E12CC193278545F700A30763 /* MarioProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC180278545F600A30763 /* MarioProgressBar.swift */; };
+		E12CC194278545F700A30763 /* MairoPlayerResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC181278545F600A30763 /* MairoPlayerResourceLoader.swift */; };
+		E12CC195278545F700A30763 /* MarioUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC182278545F600A30763 /* MarioUtility.swift */; };
+		E12CC196278545F700A30763 /* MarioPlayerCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC183278545F600A30763 /* MarioPlayerCacheManager.swift */; };
+		E12CC197278545F700A30763 /* MarioPlayerDownloadURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC184278545F600A30763 /* MarioPlayerDownloadURLSessionManager.swift */; };
+		E12CC198278545F700A30763 /* MarioVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC185278545F600A30763 /* MarioVideoPlayerView.swift */; };
+		E12CC199278545F700A30763 /* MarioPlayerCacheAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC186278545F600A30763 /* MarioPlayerCacheAction.swift */; };
+		E12CC19A278545F700A30763 /* MarioPlayerDownloadActionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC187278545F600A30763 /* MarioPlayerDownloadActionWorker.swift */; };
+		E12CC19B278545F700A30763 /* MarioPlayerCacheMediaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC188278545F600A30763 /* MarioPlayerCacheMediaConfiguration.swift */; };
+		E12CC19C278545F700A30763 /* MarioPlayerResourceLoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC189278545F700A30763 /* MarioPlayerResourceLoaderManager.swift */; };
+		E12CC19D278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18A278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift */; };
+		E12CC19E278545F700A30763 /* MarioPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18B278545F700A30763 /* MarioPlayerDownloader.swift */; };
+		E12CC19F278545F700A30763 /* MarioPlayerCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18C278545F700A30763 /* MarioPlayerCacheConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +48,25 @@
 		E12CC164278544C800A30763 /* SandVideoPlayer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SandVideoPlayer.docc; sourceTree = "<group>"; };
 		E12CC16A278544C800A30763 /* SandVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12CC16F278544C800A30763 /* SandVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandVideoPlayerTests.swift; sourceTree = "<group>"; };
+		E12CC17A278545F600A30763 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		E12CC17B278545F600A30763 /* MarioSliderThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioSliderThumbnail.swift; sourceTree = "<group>"; };
+		E12CC17C278545F600A30763 /* MarioSeekingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioSeekingView.swift; sourceTree = "<group>"; };
+		E12CC17D278545F600A30763 /* MarioPlayerCacheMediaWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheMediaWorker.swift; sourceTree = "<group>"; };
+		E12CC17E278545F600A30763 /* MarioPlayerCacheMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheMedia.swift; sourceTree = "<group>"; };
+		E12CC17F278545F600A30763 /* MarioPlayerCacheSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheSession.swift; sourceTree = "<group>"; };
+		E12CC180278545F600A30763 /* MarioProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioProgressBar.swift; sourceTree = "<group>"; };
+		E12CC181278545F600A30763 /* MairoPlayerResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MairoPlayerResourceLoader.swift; sourceTree = "<group>"; };
+		E12CC182278545F600A30763 /* MarioUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioUtility.swift; sourceTree = "<group>"; };
+		E12CC183278545F600A30763 /* MarioPlayerCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheManager.swift; sourceTree = "<group>"; };
+		E12CC184278545F600A30763 /* MarioPlayerDownloadURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerDownloadURLSessionManager.swift; sourceTree = "<group>"; };
+		E12CC185278545F600A30763 /* MarioVideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioVideoPlayerView.swift; sourceTree = "<group>"; };
+		E12CC186278545F600A30763 /* MarioPlayerCacheAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheAction.swift; sourceTree = "<group>"; };
+		E12CC187278545F600A30763 /* MarioPlayerDownloadActionWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerDownloadActionWorker.swift; sourceTree = "<group>"; };
+		E12CC188278545F600A30763 /* MarioPlayerCacheMediaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheMediaConfiguration.swift; sourceTree = "<group>"; };
+		E12CC189278545F700A30763 /* MarioPlayerResourceLoaderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerResourceLoaderManager.swift; sourceTree = "<group>"; };
+		E12CC18A278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerResourceLoadingRequest.swift; sourceTree = "<group>"; };
+		E12CC18B278545F700A30763 /* MarioPlayerDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerDownloader.swift; sourceTree = "<group>"; };
+		E12CC18C278545F700A30763 /* MarioPlayerCacheConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +111,25 @@
 			children = (
 				E12CC163278544C800A30763 /* SandVideoPlayer.h */,
 				E12CC164278544C800A30763 /* SandVideoPlayer.docc */,
+				E12CC181278545F600A30763 /* MairoPlayerResourceLoader.swift */,
+				E12CC186278545F600A30763 /* MarioPlayerCacheAction.swift */,
+				E12CC18C278545F700A30763 /* MarioPlayerCacheConfiguration.swift */,
+				E12CC183278545F600A30763 /* MarioPlayerCacheManager.swift */,
+				E12CC17E278545F600A30763 /* MarioPlayerCacheMedia.swift */,
+				E12CC188278545F600A30763 /* MarioPlayerCacheMediaConfiguration.swift */,
+				E12CC17D278545F600A30763 /* MarioPlayerCacheMediaWorker.swift */,
+				E12CC17F278545F600A30763 /* MarioPlayerCacheSession.swift */,
+				E12CC187278545F600A30763 /* MarioPlayerDownloadActionWorker.swift */,
+				E12CC18B278545F700A30763 /* MarioPlayerDownloader.swift */,
+				E12CC184278545F600A30763 /* MarioPlayerDownloadURLSessionManager.swift */,
+				E12CC189278545F700A30763 /* MarioPlayerResourceLoaderManager.swift */,
+				E12CC18A278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift */,
+				E12CC180278545F600A30763 /* MarioProgressBar.swift */,
+				E12CC17C278545F600A30763 /* MarioSeekingView.swift */,
+				E12CC17B278545F600A30763 /* MarioSliderThumbnail.swift */,
+				E12CC182278545F600A30763 /* MarioUtility.swift */,
+				E12CC185278545F600A30763 /* MarioVideoPlayerView.swift */,
+				E12CC17A278545F600A30763 /* UIView+Extension.swift */,
 			);
 			path = SandVideoPlayer;
 			sourceTree = "<group>";
@@ -194,7 +251,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12CC197278545F700A30763 /* MarioPlayerDownloadURLSessionManager.swift in Sources */,
+				E12CC19C278545F700A30763 /* MarioPlayerResourceLoaderManager.swift in Sources */,
+				E12CC19D278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift in Sources */,
+				E12CC190278545F700A30763 /* MarioPlayerCacheMediaWorker.swift in Sources */,
+				E12CC194278545F700A30763 /* MairoPlayerResourceLoader.swift in Sources */,
+				E12CC198278545F700A30763 /* MarioVideoPlayerView.swift in Sources */,
+				E12CC19B278545F700A30763 /* MarioPlayerCacheMediaConfiguration.swift in Sources */,
+				E12CC19A278545F700A30763 /* MarioPlayerDownloadActionWorker.swift in Sources */,
+				E12CC192278545F700A30763 /* MarioPlayerCacheSession.swift in Sources */,
+				E12CC196278545F700A30763 /* MarioPlayerCacheManager.swift in Sources */,
+				E12CC191278545F700A30763 /* MarioPlayerCacheMedia.swift in Sources */,
+				E12CC193278545F700A30763 /* MarioProgressBar.swift in Sources */,
+				E12CC18D278545F700A30763 /* UIView+Extension.swift in Sources */,
+				E12CC18E278545F700A30763 /* MarioSliderThumbnail.swift in Sources */,
+				E12CC199278545F700A30763 /* MarioPlayerCacheAction.swift in Sources */,
+				E12CC19F278545F700A30763 /* MarioPlayerCacheConfiguration.swift in Sources */,
+				E12CC18F278545F700A30763 /* MarioSeekingView.swift in Sources */,
 				E12CC165278544C800A30763 /* SandVideoPlayer.docc in Sources */,
+				E12CC19E278545F700A30763 /* MarioPlayerDownloader.swift in Sources */,
+				E12CC195278545F700A30763 /* MarioUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +474,7 @@
 		E12CC178278544C800A30763 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UL5C3DWEKM;
@@ -419,6 +496,7 @@
 		E12CC179278544C800A30763 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UL5C3DWEKM;
