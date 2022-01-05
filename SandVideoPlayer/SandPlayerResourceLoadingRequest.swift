@@ -38,7 +38,7 @@ open class SandPlayerResourceLoadingRequest: NSObject {
     }
     
     internal func loaderCancelledError() -> Error {
-        let nsError = NSError(domain: "com.vgplayer.resourceloader", code: -3, userInfo: [NSLocalizedDescriptionKey: "Resource loader cancelled"])
+        let nsError = NSError(domain: "com.sandplayer.resourceloader", code: -3, userInfo: [NSLocalizedDescriptionKey: "Resource loader cancelled"])
         return nsError as Error
     }
     
@@ -70,7 +70,7 @@ open class SandPlayerResourceLoadingRequest: NSObject {
     }
 }
 
-// MARK: - VGPlayerDownloaderDelegate
+// MARK: - SandPlayerDownloaderDelegate
 extension SandPlayerResourceLoadingRequest: SandPlayerDownloaderDelegate {
     public func downloader(_ downloader: SandPlayerDownloader, didReceiveData data: Data) {
         request.dataRequest?.respond(with: data)
