@@ -12,8 +12,8 @@ open class SandPlayerCacheMediaConfiguration: NSObject, NSCoding, NSCopying{
     public var cacheMedia: SandPlayerCacheMedia?
     public var url: URL?
     
-    fileprivate let cacheSegmentQueue = DispatchQueue(label: "com.vgplayer.CacheSegmentQueue")
-    fileprivate let cacheDownloadInfoQueue = DispatchQueue(label: "com.vgplayer.CacheDownloadInfoQueue")
+    fileprivate let cacheSegmentQueue = DispatchQueue(label: "com.sandplayer.CacheSegmentQueue")
+    fileprivate let cacheDownloadInfoQueue = DispatchQueue(label: "com.sandplayer.CacheDownloadInfoQueue")
     fileprivate var fileName: String?
     fileprivate var downloadInfo = [Any]()
     

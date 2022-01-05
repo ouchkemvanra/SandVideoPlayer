@@ -16,7 +16,7 @@ open class SandPlayerResourceLoaderManager: NSObject {
     
     open weak var delegate: SandPlayerResourceLoaderManagerDelegate?
     fileprivate var loaders = Dictionary<String, SandPlayerResourceLoader>()
-    fileprivate let kCacheScheme = "VGPlayerMideaCache"
+    fileprivate let kCacheScheme = "SandPlayerMideaCache"
     
     public override init() {
         super.init()
@@ -94,7 +94,7 @@ extension SandPlayerResourceLoaderManager: AVAssetResourceLoaderDelegate {
     
 }
 
-// MARK: - VGPlayerResourceLoaderDelegate
+// MARK: - SandPlayerResourceLoaderDelegate
 extension SandPlayerResourceLoaderManager: SandPlayerResourceLoaderDelegate {
     public func resourceLoader(_ resourceLoader: SandPlayerResourceLoader, didFailWithError error: Error?) {
         resourceLoader.cancel()

@@ -19,7 +19,7 @@ open class SandPlayerDownloadURLSessionManager: NSObject, URLSessionDataDelegate
     
     fileprivate let kBufferSize = 10 * 1024
     fileprivate var bufferData = NSMutableData()
-    fileprivate let bufferDataQueue = DispatchQueue(label: "com.vgplayer.bufferDataQueue")
+    fileprivate let bufferDataQueue = DispatchQueue(label: "com.sandplayer.bufferDataQueue")
     
     open weak var delegate: SandPlayerDownloadeURLSessionManagerDelegate?
     

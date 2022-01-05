@@ -8,12 +8,12 @@
 import Foundation
 import MobileCoreServices
 
-// MARK: - VGPlayerDownloaderStatus
+// MARK: - SandPlayerDownloaderStatus
 public struct SandPlayerDownloaderStatus {
     
     static let shared = SandPlayerDownloaderStatus()
     fileprivate var downloadingURLs: NSMutableSet
-    fileprivate let downloaderStatusQueue = DispatchQueue(label: "com.vgplayer.downloaderStatusQueue")
+    fileprivate let downloaderStatusQueue = DispatchQueue(label: "com.sandplayer.downloaderStatusQueue")
     
     init() {
         downloadingURLs = NSMutableSet()
@@ -53,7 +53,7 @@ extension SandPlayerDownloaderDelegate {
     public func downloader(_ downloader: SandPlayerDownloader, didFinishedWithError error: Error?) { }
 }
 
-// MARK: - VGPlayerDownloader
+// MARK: - SandPlayerDownloader
 open class SandPlayerDownloader: NSObject {
     open fileprivate(set) var url: URL
     open weak var delegate: SandPlayerDownloaderDelegate?
@@ -139,13 +139,13 @@ open class SandPlayerDownloader: NSObject {
         
         if isCurrentURLDownloading() {
             let userInfo = [NSLocalizedDescriptionKey: "URL: \(url) alreay in downloading queue."]
-            let error = NSError(domain: "com.vgplayer.download", code: -1, userInfo: userInfo)
+            let error = NSError(domain: "com.sandplayer.download", code: -1, userInfo: userInfo)
             delegate?.downloader(self, didFinishedWithError: error as Error)
         }
     }
 }
 
-// MARK: - VGPlayerDownloadActionWorkerDelegate
+// MARK: - SandPlayerDownloadActionWorkerDelegate
 extension SandPlayerDownloader: SandPlayerDownloadActionWorkerDelegate {
     
     public func downloadActionWorker(_ actionWorker: SandPlayerDownloadActionWorker, didFinishWithError error: Error?) {
@@ -193,7 +193,7 @@ extension SandPlayerDownloader: SandPlayerDownloadActionWorkerDelegate {
             self.cacheMedia = cacheMedia
             let isSetCacheMedia = cacheMediaWorker.set(cacheMedia: cacheMedia)
             if !isSetCacheMedia {
-                let nsError = NSError(domain: "com.vgplayer.cacheMedia", code: -1, userInfo: [NSLocalizedDescriptionKey:"Set cache media failed."])
+                let nsError = NSError(domain: "com.sandplayer.cacheMedia", code: -1, userInfo: [NSLocalizedDescriptionKey:"Set cache media failed."])
                 delegate?.downloader(self, didFinishedWithError: nsError as Error)
                 return
             }

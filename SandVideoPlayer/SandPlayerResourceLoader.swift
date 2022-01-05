@@ -68,7 +68,7 @@ open class SandPlayerResourceLoader: NSObject {
     }
 }
 
-// MARK: - VGPlayerResourceLoadingRequestDelegate
+// MARK: - SandPlayerResourceLoadingRequestDelegate
 extension SandPlayerResourceLoader: SandPlayerResourceLoadingRequestDelegate {
     public func resourceLoadingRequest(_ resourceLoadingRequest: SandPlayerResourceLoadingRequest, didCompleteWithError error: Error?) {
         remove(resourceLoadingRequest.request)
