@@ -12,24 +12,24 @@
 		E12CC170278544C800A30763 /* SandVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC16F278544C800A30763 /* SandVideoPlayerTests.swift */; };
 		E12CC171278544C800A30763 /* SandVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = E12CC163278544C800A30763 /* SandVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E12CC18D278545F700A30763 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17A278545F600A30763 /* UIView+Extension.swift */; };
-		E12CC18E278545F700A30763 /* MarioSliderThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17B278545F600A30763 /* MarioSliderThumbnail.swift */; };
-		E12CC18F278545F700A30763 /* MarioSeekingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17C278545F600A30763 /* MarioSeekingView.swift */; };
-		E12CC190278545F700A30763 /* MarioPlayerCacheMediaWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17D278545F600A30763 /* MarioPlayerCacheMediaWorker.swift */; };
-		E12CC191278545F700A30763 /* MarioPlayerCacheMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17E278545F600A30763 /* MarioPlayerCacheMedia.swift */; };
-		E12CC192278545F700A30763 /* MarioPlayerCacheSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17F278545F600A30763 /* MarioPlayerCacheSession.swift */; };
-		E12CC193278545F700A30763 /* MarioProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC180278545F600A30763 /* MarioProgressBar.swift */; };
-		E12CC194278545F700A30763 /* MairoPlayerResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC181278545F600A30763 /* MairoPlayerResourceLoader.swift */; };
-		E12CC195278545F700A30763 /* MarioUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC182278545F600A30763 /* MarioUtility.swift */; };
-		E12CC196278545F700A30763 /* MarioPlayerCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC183278545F600A30763 /* MarioPlayerCacheManager.swift */; };
-		E12CC197278545F700A30763 /* MarioPlayerDownloadURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC184278545F600A30763 /* MarioPlayerDownloadURLSessionManager.swift */; };
-		E12CC198278545F700A30763 /* MarioVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC185278545F600A30763 /* MarioVideoPlayerView.swift */; };
-		E12CC199278545F700A30763 /* MarioPlayerCacheAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC186278545F600A30763 /* MarioPlayerCacheAction.swift */; };
-		E12CC19A278545F700A30763 /* MarioPlayerDownloadActionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC187278545F600A30763 /* MarioPlayerDownloadActionWorker.swift */; };
-		E12CC19B278545F700A30763 /* MarioPlayerCacheMediaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC188278545F600A30763 /* MarioPlayerCacheMediaConfiguration.swift */; };
-		E12CC19C278545F700A30763 /* MarioPlayerResourceLoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC189278545F700A30763 /* MarioPlayerResourceLoaderManager.swift */; };
-		E12CC19D278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18A278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift */; };
-		E12CC19E278545F700A30763 /* MarioPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18B278545F700A30763 /* MarioPlayerDownloader.swift */; };
-		E12CC19F278545F700A30763 /* MarioPlayerCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18C278545F700A30763 /* MarioPlayerCacheConfiguration.swift */; };
+		E12CC18E278545F700A30763 /* SandSliderThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17B278545F600A30763 /* SandSliderThumbnail.swift */; };
+		E12CC18F278545F700A30763 /* SandSeekingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17C278545F600A30763 /* SandSeekingView.swift */; };
+		E12CC190278545F700A30763 /* SandPlayerCacheMediaWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17D278545F600A30763 /* SandPlayerCacheMediaWorker.swift */; };
+		E12CC191278545F700A30763 /* SandPlayerCacheMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17E278545F600A30763 /* SandPlayerCacheMedia.swift */; };
+		E12CC192278545F700A30763 /* SandPlayerCacheSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC17F278545F600A30763 /* SandPlayerCacheSession.swift */; };
+		E12CC193278545F700A30763 /* SandProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC180278545F600A30763 /* SandProgressBar.swift */; };
+		E12CC194278545F700A30763 /* SandPlayerResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC181278545F600A30763 /* SandPlayerResourceLoader.swift */; };
+		E12CC195278545F700A30763 /* SandUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC182278545F600A30763 /* SandUtility.swift */; };
+		E12CC196278545F700A30763 /* SandPlayerCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC183278545F600A30763 /* SandPlayerCacheManager.swift */; };
+		E12CC197278545F700A30763 /* SandPlayerDownloadURLSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC184278545F600A30763 /* SandPlayerDownloadURLSessionManager.swift */; };
+		E12CC198278545F700A30763 /* SandVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC185278545F600A30763 /* SandVideoPlayerView.swift */; };
+		E12CC199278545F700A30763 /* SandPlayerCacheAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC186278545F600A30763 /* SandPlayerCacheAction.swift */; };
+		E12CC19A278545F700A30763 /* SandPlayerDownloadActionWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC187278545F600A30763 /* SandPlayerDownloadActionWorker.swift */; };
+		E12CC19B278545F700A30763 /* SandPlayerCacheMediaConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC188278545F600A30763 /* SandPlayerCacheMediaConfiguration.swift */; };
+		E12CC19C278545F700A30763 /* SandPlayerResourceLoaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC189278545F700A30763 /* SandPlayerResourceLoaderManager.swift */; };
+		E12CC19D278545F700A30763 /* SandPlayerResourceLoadingRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18A278545F700A30763 /* SandPlayerResourceLoadingRequest.swift */; };
+		E12CC19E278545F700A30763 /* SandPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */; };
+		E12CC19F278545F700A30763 /* SandPlayerCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,24 +49,24 @@
 		E12CC16A278544C800A30763 /* SandVideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandVideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12CC16F278544C800A30763 /* SandVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SandVideoPlayerTests.swift; sourceTree = "<group>"; };
 		E12CC17A278545F600A30763 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
-		E12CC17B278545F600A30763 /* MarioSliderThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioSliderThumbnail.swift; sourceTree = "<group>"; };
-		E12CC17C278545F600A30763 /* MarioSeekingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioSeekingView.swift; sourceTree = "<group>"; };
-		E12CC17D278545F600A30763 /* MarioPlayerCacheMediaWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheMediaWorker.swift; sourceTree = "<group>"; };
-		E12CC17E278545F600A30763 /* MarioPlayerCacheMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheMedia.swift; sourceTree = "<group>"; };
-		E12CC17F278545F600A30763 /* MarioPlayerCacheSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheSession.swift; sourceTree = "<group>"; };
-		E12CC180278545F600A30763 /* MarioProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioProgressBar.swift; sourceTree = "<group>"; };
-		E12CC181278545F600A30763 /* MairoPlayerResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MairoPlayerResourceLoader.swift; sourceTree = "<group>"; };
-		E12CC182278545F600A30763 /* MarioUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioUtility.swift; sourceTree = "<group>"; };
-		E12CC183278545F600A30763 /* MarioPlayerCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheManager.swift; sourceTree = "<group>"; };
-		E12CC184278545F600A30763 /* MarioPlayerDownloadURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerDownloadURLSessionManager.swift; sourceTree = "<group>"; };
-		E12CC185278545F600A30763 /* MarioVideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioVideoPlayerView.swift; sourceTree = "<group>"; };
-		E12CC186278545F600A30763 /* MarioPlayerCacheAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheAction.swift; sourceTree = "<group>"; };
-		E12CC187278545F600A30763 /* MarioPlayerDownloadActionWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerDownloadActionWorker.swift; sourceTree = "<group>"; };
-		E12CC188278545F600A30763 /* MarioPlayerCacheMediaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheMediaConfiguration.swift; sourceTree = "<group>"; };
-		E12CC189278545F700A30763 /* MarioPlayerResourceLoaderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerResourceLoaderManager.swift; sourceTree = "<group>"; };
-		E12CC18A278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerResourceLoadingRequest.swift; sourceTree = "<group>"; };
-		E12CC18B278545F700A30763 /* MarioPlayerDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerDownloader.swift; sourceTree = "<group>"; };
-		E12CC18C278545F700A30763 /* MarioPlayerCacheConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarioPlayerCacheConfiguration.swift; sourceTree = "<group>"; };
+		E12CC17B278545F600A30763 /* SandSliderThumbnail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandSliderThumbnail.swift; sourceTree = "<group>"; };
+		E12CC17C278545F600A30763 /* SandSeekingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandSeekingView.swift; sourceTree = "<group>"; };
+		E12CC17D278545F600A30763 /* SandPlayerCacheMediaWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheMediaWorker.swift; sourceTree = "<group>"; };
+		E12CC17E278545F600A30763 /* SandPlayerCacheMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheMedia.swift; sourceTree = "<group>"; };
+		E12CC17F278545F600A30763 /* SandPlayerCacheSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheSession.swift; sourceTree = "<group>"; };
+		E12CC180278545F600A30763 /* SandProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandProgressBar.swift; sourceTree = "<group>"; };
+		E12CC181278545F600A30763 /* SandPlayerResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerResourceLoader.swift; sourceTree = "<group>"; };
+		E12CC182278545F600A30763 /* SandUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandUtility.swift; sourceTree = "<group>"; };
+		E12CC183278545F600A30763 /* SandPlayerCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheManager.swift; sourceTree = "<group>"; };
+		E12CC184278545F600A30763 /* SandPlayerDownloadURLSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerDownloadURLSessionManager.swift; sourceTree = "<group>"; };
+		E12CC185278545F600A30763 /* SandVideoPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandVideoPlayerView.swift; sourceTree = "<group>"; };
+		E12CC186278545F600A30763 /* SandPlayerCacheAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheAction.swift; sourceTree = "<group>"; };
+		E12CC187278545F600A30763 /* SandPlayerDownloadActionWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerDownloadActionWorker.swift; sourceTree = "<group>"; };
+		E12CC188278545F600A30763 /* SandPlayerCacheMediaConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheMediaConfiguration.swift; sourceTree = "<group>"; };
+		E12CC189278545F700A30763 /* SandPlayerResourceLoaderManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerResourceLoaderManager.swift; sourceTree = "<group>"; };
+		E12CC18A278545F700A30763 /* SandPlayerResourceLoadingRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerResourceLoadingRequest.swift; sourceTree = "<group>"; };
+		E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerDownloader.swift; sourceTree = "<group>"; };
+		E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SandPlayerCacheConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,24 +111,24 @@
 			children = (
 				E12CC163278544C800A30763 /* SandVideoPlayer.h */,
 				E12CC164278544C800A30763 /* SandVideoPlayer.docc */,
-				E12CC181278545F600A30763 /* MairoPlayerResourceLoader.swift */,
-				E12CC186278545F600A30763 /* MarioPlayerCacheAction.swift */,
-				E12CC18C278545F700A30763 /* MarioPlayerCacheConfiguration.swift */,
-				E12CC183278545F600A30763 /* MarioPlayerCacheManager.swift */,
-				E12CC17E278545F600A30763 /* MarioPlayerCacheMedia.swift */,
-				E12CC188278545F600A30763 /* MarioPlayerCacheMediaConfiguration.swift */,
-				E12CC17D278545F600A30763 /* MarioPlayerCacheMediaWorker.swift */,
-				E12CC17F278545F600A30763 /* MarioPlayerCacheSession.swift */,
-				E12CC187278545F600A30763 /* MarioPlayerDownloadActionWorker.swift */,
-				E12CC18B278545F700A30763 /* MarioPlayerDownloader.swift */,
-				E12CC184278545F600A30763 /* MarioPlayerDownloadURLSessionManager.swift */,
-				E12CC189278545F700A30763 /* MarioPlayerResourceLoaderManager.swift */,
-				E12CC18A278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift */,
-				E12CC180278545F600A30763 /* MarioProgressBar.swift */,
-				E12CC17C278545F600A30763 /* MarioSeekingView.swift */,
-				E12CC17B278545F600A30763 /* MarioSliderThumbnail.swift */,
-				E12CC182278545F600A30763 /* MarioUtility.swift */,
-				E12CC185278545F600A30763 /* MarioVideoPlayerView.swift */,
+				E12CC181278545F600A30763 /* SandPlayerResourceLoader.swift */,
+				E12CC186278545F600A30763 /* SandPlayerCacheAction.swift */,
+				E12CC18C278545F700A30763 /* SandPlayerCacheConfiguration.swift */,
+				E12CC183278545F600A30763 /* SandPlayerCacheManager.swift */,
+				E12CC17E278545F600A30763 /* SandPlayerCacheMedia.swift */,
+				E12CC188278545F600A30763 /* SandPlayerCacheMediaConfiguration.swift */,
+				E12CC17D278545F600A30763 /* SandPlayerCacheMediaWorker.swift */,
+				E12CC17F278545F600A30763 /* SandPlayerCacheSession.swift */,
+				E12CC187278545F600A30763 /* SandPlayerDownloadActionWorker.swift */,
+				E12CC18B278545F700A30763 /* SandPlayerDownloader.swift */,
+				E12CC184278545F600A30763 /* SandPlayerDownloadURLSessionManager.swift */,
+				E12CC189278545F700A30763 /* SandPlayerResourceLoaderManager.swift */,
+				E12CC18A278545F700A30763 /* SandPlayerResourceLoadingRequest.swift */,
+				E12CC180278545F600A30763 /* SandProgressBar.swift */,
+				E12CC17C278545F600A30763 /* SandSeekingView.swift */,
+				E12CC17B278545F600A30763 /* SandSliderThumbnail.swift */,
+				E12CC182278545F600A30763 /* SandUtility.swift */,
+				E12CC185278545F600A30763 /* SandVideoPlayerView.swift */,
 				E12CC17A278545F600A30763 /* UIView+Extension.swift */,
 			);
 			path = SandVideoPlayer;
@@ -251,26 +251,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E12CC197278545F700A30763 /* MarioPlayerDownloadURLSessionManager.swift in Sources */,
-				E12CC19C278545F700A30763 /* MarioPlayerResourceLoaderManager.swift in Sources */,
-				E12CC19D278545F700A30763 /* MarioPlayerResourceLoadingRequest.swift in Sources */,
-				E12CC190278545F700A30763 /* MarioPlayerCacheMediaWorker.swift in Sources */,
-				E12CC194278545F700A30763 /* MairoPlayerResourceLoader.swift in Sources */,
-				E12CC198278545F700A30763 /* MarioVideoPlayerView.swift in Sources */,
-				E12CC19B278545F700A30763 /* MarioPlayerCacheMediaConfiguration.swift in Sources */,
-				E12CC19A278545F700A30763 /* MarioPlayerDownloadActionWorker.swift in Sources */,
-				E12CC192278545F700A30763 /* MarioPlayerCacheSession.swift in Sources */,
-				E12CC196278545F700A30763 /* MarioPlayerCacheManager.swift in Sources */,
-				E12CC191278545F700A30763 /* MarioPlayerCacheMedia.swift in Sources */,
-				E12CC193278545F700A30763 /* MarioProgressBar.swift in Sources */,
+				E12CC197278545F700A30763 /* SandPlayerDownloadURLSessionManager.swift in Sources */,
+				E12CC19C278545F700A30763 /* SandPlayerResourceLoaderManager.swift in Sources */,
+				E12CC19D278545F700A30763 /* SandPlayerResourceLoadingRequest.swift in Sources */,
+				E12CC190278545F700A30763 /* SandPlayerCacheMediaWorker.swift in Sources */,
+				E12CC194278545F700A30763 /* SandPlayerResourceLoader.swift in Sources */,
+				E12CC198278545F700A30763 /* SandVideoPlayerView.swift in Sources */,
+				E12CC19B278545F700A30763 /* SandPlayerCacheMediaConfiguration.swift in Sources */,
+				E12CC19A278545F700A30763 /* SandPlayerDownloadActionWorker.swift in Sources */,
+				E12CC192278545F700A30763 /* SandPlayerCacheSession.swift in Sources */,
+				E12CC196278545F700A30763 /* SandPlayerCacheManager.swift in Sources */,
+				E12CC191278545F700A30763 /* SandPlayerCacheMedia.swift in Sources */,
+				E12CC193278545F700A30763 /* SandProgressBar.swift in Sources */,
 				E12CC18D278545F700A30763 /* UIView+Extension.swift in Sources */,
-				E12CC18E278545F700A30763 /* MarioSliderThumbnail.swift in Sources */,
-				E12CC199278545F700A30763 /* MarioPlayerCacheAction.swift in Sources */,
-				E12CC19F278545F700A30763 /* MarioPlayerCacheConfiguration.swift in Sources */,
-				E12CC18F278545F700A30763 /* MarioSeekingView.swift in Sources */,
+				E12CC18E278545F700A30763 /* SandSliderThumbnail.swift in Sources */,
+				E12CC199278545F700A30763 /* SandPlayerCacheAction.swift in Sources */,
+				E12CC19F278545F700A30763 /* SandPlayerCacheConfiguration.swift in Sources */,
+				E12CC18F278545F700A30763 /* SandSeekingView.swift in Sources */,
 				E12CC165278544C800A30763 /* SandVideoPlayer.docc in Sources */,
-				E12CC19E278545F700A30763 /* MarioPlayerDownloader.swift in Sources */,
-				E12CC195278545F700A30763 /* MarioUtility.swift in Sources */,
+				E12CC19E278545F700A30763 /* SandPlayerDownloader.swift in Sources */,
+				E12CC195278545F700A30763 /* SandUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
