@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "SandVideoPlayer"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Customizable Video Player"
   s.homepage     = "https://github.com/ouchkemvanra/SandVideoPlayer.git"
  s.license = { :type => 'MIT', :text => <<-LICENSE
@@ -28,7 +28,7 @@ SOFTWARE.
                  LICENSE
                }
   s.author             = { "kemvanra ouch" => "ouchkemvanra1@gmail.com" }
-  s.source       = { :git => "https://github.com/ouchkemvanra/SandVideoPlayer.git", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/ouchkemvanra/SandVideoPlayer.git", :tag => "v0.0.2" }
   s.platform = :ios, '9.0'
   s.source_files  = "SandVideoPlayer/*.{h,m}", "SandVideoPlayer/**/*.{h,m}"
   s.frameworks = 'AVKit'

@@ -31,3 +31,4 @@ func fadeOut(duration: TimeInterval = 1.0) {
   }
 
 }
+ 
